@@ -1,18 +1,21 @@
-# Node.js & MySQL Promises using Express with MVC
-This is a very basic example of CRUD in Node.js and mySQL promises with Model View Controller.
+# Node.js & MySQL Promises using Express with MVC and using async -> await 
+This is a very basic example of CRUD in Node.js and mySQL promises with Model View Controller and async await.
 ## Installation
 *for newbies : Clone or download zip to your machine then hit this :
 
 	npm install
 
 ## Configuration (database)
-app.js
+util/db.js
 
-        host: 'localhost',
-        user: 'root', // mysql username
-        password : 'root', // mysql password
-        port : 3306, //port mysql
-        database:'nodejs'	 // mysql database name
+	const dbConfig = {
+	user: 'Enter db username', //mysql username
+	password: 'enter password, leave empty if none used', //mysql password
+	database: 'enter db name',
+	host: 'enter host name or ip',
+	connectionLimit:10, //mysql port timeout
+	port:5721 //mysql port
+	};
 
 
 	
