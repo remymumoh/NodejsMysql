@@ -9,12 +9,12 @@ This is a very basic example of CRUD in Node.js and mySQL promises with Model Vi
 util/db.js
 
 	const dbConfig = {
-	user: 'Enter db username', //mysql username
-	password: 'enter password, leave empty if none used', //mysql password
-	database: 'enter db name',
-	host: 'enter host name or ip',
-	connectionLimit:10, //mysql port timeout
-	port:5721 //mysql port
+			user: 'Enter db username', //mysql username
+			password: 'enter password, leave empty if none used', //mysql password
+			database: 'enter db name',
+			host: 'enter host name or ip',
+			connectionLimit:10, //mysql port timeout
+			port:5721 //mysql port
 	};
 
 
